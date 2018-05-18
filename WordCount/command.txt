@@ -1,0 +1,8 @@
+# enter current folder
+cd /Volumes/Working/Dissertation/POP-Dissertation
+
+# show current word count
+perl WordCount/texcount.pl -1 -sum -relaxed -inc report.tex
+
+# write current word count into file
+perl WordCount/texcount.pl -1 -sum -relaxed -inc report.tex > ./WordCount/word.count
