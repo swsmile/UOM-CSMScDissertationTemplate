@@ -1,1 +1,2 @@
 *.pl linguist-language=tex
+*.tex linguist-language=TeX
